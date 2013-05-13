@@ -1,3 +1,16 @@
+{- |
+Module      :  Reversi
+Description :  Reversi written in Haskell with OpenGL bindings
+Copyright   :  (c) Martin Konecny
+License     :  MIT
+
+Stability   :  experimental
+Portability :  portable
+
+Simple Reversi game. Rules can be read here:
+http://en.wikipedia.org/wiki/Reversi
+-}
+
 import System.Exit ( exitWith, ExitCode(ExitSuccess) )
 import Graphics.UI.GLUT
 import Array
